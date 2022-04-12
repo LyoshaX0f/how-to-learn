@@ -1,0 +1,23 @@
+.techniques {
+  margin-bottom: 100px;
+
+  /*width: 80%;*/
+}
+
+.cards {
+  margin: 0 auto;
+  width: 920px;
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  /*justify-content: space-between;
+  align-content: space-between;*/
+}
+
+/*.cards__title {
+  margin: 0 0 16px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}*/
