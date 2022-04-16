@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--normolize CSS-->
-  <link rel="stylesheet" href="styles/normalize.css">
+  <!--<link rel="stylesheet" href="styles/normalize.css">-->
   <!-- CSS -->
-  <!--<link rel="stylesheet" href="styles/style.css">-->
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -14,7 +13,7 @@
   <div class="page">
     <header class="header">
       <!--<div class="header__wrapper">-->
-        <img class="logo logo_place_header" src="images/svg/logo_place_header.svg" alt="Яндекс лого хедер">
+        <a class="link" href="#" target="_blank"> <img class="logo logo_place_header" src="images/svg/logo_place_header.svg" alt="Яндекс лого хедер"></a>
         <h1 class="header__title">Научиться учиться</h1>
         <h2 class="header__subtitle subtitle">
           Какие современные и
@@ -28,7 +27,7 @@
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <h2 class="two-columns__bref subtitle">Главные проблемы в обучении</h2>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Ни в школе, ни в институте нас не учат тому, как парвильно изучать материал. Мы
@@ -47,51 +46,47 @@
         </div>
       </section>
       <section class="techniques">
-        <h2 class="techniques__title section-title">Техника обучения</h2>
-        <h3 class="techniques__subtitle section-subtitle subtitle">Пять практик от Барбары Оакли</h3>
+        <h2 class="section-title">Техники обучения</h2>
+        <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
         <ul class="cards list">
           <li class="cards__item">
-            <img class="cards__image" src="images/png/techniques/cards-attention.png" alt="внимание">
+            <img class="cards__image" src="images/png/techniques/cards-attention.png" alt="101 эссе, которые изменят ваше мышление. Книга, Брианна Вест">
             <h4 class="cards__title">Два вида внимения</h4>
             <p class="cards__description">глубокие знания возникают, если чередовать сфокусированное и рассеяное мышление.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="images/png/techniques/cards-recall.png" alt="внимание">
+            <img class="cards__image" src="images/png/techniques/cards-recall.png" alt="Статуя молодого человека">
             <h4 class="cards__title">Recall</h4>
             <p class="cards__description">Вспоминайте изученное &#8210; это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="images/png/techniques/cards-interliving.png" alt="внимание">
+            <img class="cards__image" src="images/png/techniques/cards-interliving.png" alt="Национальный мемориал и музей 11 сентября">
             <h4 class="cards__title">Интерливинг</h4>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="images/png/techniques/cards-question.png" alt="внимание">
+            <img class="cards__image" src="images/png/techniques/cards-question.png" alt="Человек в помещении">
             <h4 class="cards__title">Вопросы</h4>
             <p class="cards__description">Слушая преподователя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="images/png/techniques/cards-competence.png" alt="внимание">
+            <img class="cards__image" src="images/png/techniques/cards-competence.png" alt="рука держащая книги">
             <h4 class="cards__title">Иллюзия компетентности</h4>
             <p class="cards__description">Повторите про себя запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
         </ul>
       </section>
       <section class="video">
-        <h2 class="video__title section-title section-title_margin section-title_text-align">Видео на TED</h2>
-        <h3 class="video__subtitle section-subtitle">Для тех, кто любит прокрастинировать</h3>
+        <h2 class="section-title">Видео на TED</h2>
+        <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe id="ytplayer1" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY?modestbranding=1" title="YouTube video player" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe  id="ytplayer" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allowfullscreen></iframe>
-          </div>
+            <iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY?modestbranding=1" title="YouTube video player" allowfullscreen></iframe>
+            <iframe class="video__iframe" id="ytplayer" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
         <div class="two-columns">
-          <h2 class="two-columns__bref subtitle">История Барбары Оакли</h2>
+          <h2 class="two-columns__brief">История Барбары Оакли</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               С детства Барбаре не давалась математика. Она считала себя законченным
@@ -105,13 +100,13 @@
         </div>
       </section>
       <section class="feynman">
-        <h2 class="feynman__title title">Метод Фреймана</h2>
-        <h3 class="feynman__subtitle subtitle">Выучить и не забыть</h3>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h3 class="feynman__subtitle">Выучить и не забыть</h3>
         <a class="feynman__link link" href="#" target="_blank">Подробнее &rarr;</a>
       </section>
       <section class="digits">
-        <h2 class="section-title title section-title_margin section-title_text-align">Цифры и факты</h2>
-        <h3 class="section-subtitle subtitle section-subtitle_text-align section-subtitle_margin">Про учёбу и мозг</h3>
+        <h2 class="section-title">Цифры и факты</h2>
+        <h3 class="section-subtitle">Про учёбу и мозг</h3>
         <div class="table">
           <div class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -152,23 +147,23 @@
       <section class="khan">
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
-          <h2 class="khan__title section-title title">Весь мир — школа</h2>
+          <h2 class="khan__title">Весь мир — школа</h2>
           <p class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу
             «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
             получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </p>
-          <p class="khan__quote-author">Джордж Лукас</p>
-          <p class="khan__quote-author-subline section-subtitle subtitle">Кинорежиссер, продюсер</p>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <img class="khan__book-pic" src="images/jpg/khan/khan-book.jpg" alt="весь мир - школа">
+            <img class="khan__book-pic" src="images/jpg/khan/khan-book.jpg" alt="Весь мир - школа. Преобразованное образование | Хан Салман  #1">
             <a class="khan__buy-link link" href="#" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
       <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark title">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark subtitle">от Джоша Кауфмана</h3>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -213,26 +208,22 @@
         </div>
         <div class="kaufman__triangle kaufman__triangle_rotation"></div>
       </section>
-
       <section class="resources">
-        <h2 class="section-title section-title_margin section-title_text-align">Полезные ресурсы</h2>
+        <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о технике и лайфхаках обучения</h3>
-        <nav>
           <ul class="resources__logo-zone list">
             <li><a class="resources__link link" href="#" target="_blank"><img class="resources__logo" src="images/svg/logo/resources-arzamas.svg" alt="арзамас"></a></li>
             <li><a class="resources__link link" href="#" target="_blank"><img class="resources__logo" src="images/svg/logo/resources-n1.svg" alt="Н+1"></a></li>
             <li><a class="resources__link link" href="#" target="_blank"><img class="resources__logo" src="images/svg/logo/resources-strelka.svg" alt="стрелка"></a></li>
             <li> <a class="resources__link link" href="#" target="_blank"><img class="resources__logo" src="images/svg/logo/resources-polka.svg" alt="полка"></a></li>
           </ul>
-        </nav>
       </section>
-
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="images/svg/logo_place_footer.svg" alt="Яндекс">
-          <span class="footer__author">&copy; 2019. Виктор Абакин</span>
+          <a class="link" href="#" target="_blank"><img class="logo logo_place_footer" src="images/svg/logo_place_footer.svg" alt="Яндекс"></a>
+          <p class="footer__author">&copy; 2019. Виктор Абакин</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">O Практикуме</h4>
