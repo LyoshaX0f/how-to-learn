@@ -1,0 +1,10 @@
+.rotation {
+  animation: spin 20s linear infinite;
+  transition: 20s normal 0s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
