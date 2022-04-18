@@ -5,4 +5,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: .5s linear;
+}
+
+.feynman__link:hover {
+  transition: .5s linear;
+  opacity: .3;
 }

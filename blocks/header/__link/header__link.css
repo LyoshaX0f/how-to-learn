@@ -1,0 +1,11 @@
+/*ссылки на странице при наведении мыши*/
+.header__link:hover {
+  transition: .5s linear;
+  opacity: .3;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  transition: .5s linear;
+}

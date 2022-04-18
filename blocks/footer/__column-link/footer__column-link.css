@@ -1,15 +1,13 @@
-.khan__buy-link {
-  display: inline;
-  line-height: 42px;
-  font-size: 30px;
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
   font-weight: normal;
-  color: #2f80ed;
+  color: white;
   text-decoration: none;
   transition: .5s linear;
 }
 
-.khan__buy-link:hover {
+.footer__column-link:hover {
   transition: .5s linear;
   opacity: .3;
 }
-
