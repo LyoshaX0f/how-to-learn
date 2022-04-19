@@ -113,8 +113,8 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);/*check*/
 @import url(../blocks/footer/__column-list/footer__column-list.css);/*check*/
 @import url(../blocks/footer/__column-icon/footer__column-icon.css);
-@import url(../blocks/footer/__column_content/_info/footer__column_content_info.css);/*check*/
-@import url(../blocks/footer/__column_content/_social/footer__column_content_social.css);/*check*/
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);/*check*/
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);/*check*/
 @import url(../blocks/footer/_content_copyright/footer__column_content_copyright.css); /*check*/
 @import url(../blocks/footer/__author/footer__author.css);/*check*/
 /*@import url(../blocks/footer/logo_place_footer/logo_place_footer.css);*//*check*/
